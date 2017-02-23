@@ -46,14 +46,6 @@
             "enabled": true,
             "module": "path:./lib/locale"
         },
-        "makaraAMDify": {
-            "priority": 119,
-            "enabled": true,
-            "module": {
-                "name": "makara-amdify",
-                "method": "middleware"
-            }
-        },
 
         "static": {
             "module": {

@@ -33,26 +33,6 @@
                     "path:./.build",
                     {
 
-                        "makara-amdify": {
-                            "module": "construx-makara-amdify",
-                            "files": "**/_languagepack.js",
-                            "i18n": "config:i18n",
-                            "ext": "js"
-                        },
-                        "dust": {
-                            "module": "construx-dustjs",
-                            "files": "/js/templates/**/*.js",
-                            "base": "templates",
-                            "ext": "dust",
-                            "config": {
-                                "prepend": "",
-                                "append": "",
-                                "amd": true
-                            },
-                            "precompile": "require:construx-dustjs-makara-amd-precompile"
-                        },
-
-
                         "css": {
                             "module": "construx-less",
                             "files": "/css/**/*.css"

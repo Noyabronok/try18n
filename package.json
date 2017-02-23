@@ -7,7 +7,6 @@
   "scripts": {
     "test": "grunt test",
     "build": "grunt build",
-    "postinstall": "grunt postinstall",
     "all": "npm run build && npm run test"
   },
   "dependencies": {
